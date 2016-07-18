@@ -1,0 +1,82 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Thin Sectioned Essay
+% LaTeX Template
+% Version 1.0 (3/8/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original Author:
+% Nicolas Diaz (nsdiaz@uc.cl) with extensive modifications by:
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper, 11pt]{article} % Font size (can be 10pt, 11pt or 12pt) and paper size (remove a4paper for US letter paper)
+\usepackage{subfiles}
+\usepackage{essay}
+\graphicspath{ {media/} }
+
+
+%----------------------------------------------------------------------------------------
+%	TITLE
+%----------------------------------------------------------------------------------------
+
+\title{\textbf{SIGGRAPH 2016}\\ % Title
+A wide-eyed account} % Subtitle
+
+\author{\textsc{Brooks Mershon}} % Author
+
+\date{\today} % Date
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\maketitle % Print the title section
+
+\eject
+
+%----------------------------------------------------------------------------------------
+%	ABSTRACT AND KEYWORDS
+%----------------------------------------------------------------------------------------
+
+\renewcommand{\abstractname}{Forward} % Uncomment to change the name of the abstract to something else
+
+\begin{abstract}
+	\textbf{S}pecial \textbf{I}nterest \textbf{G}roup on computer \textbf{GRAPH}ics. The following is based on the experience of a 22 year old Student Volunteer (SV) attending the 43rd SIGGRAPH Converence on Computer Graphics and Interactive Techniques over the course of five days in July, 2016. Following graduation and the beginning of an exciting new job on the SketchUp team at Trimble, this student booked a ticket to Anaheim, checked in with an Airbnb host, and joined along with hundreds of other accepted SVs tasked with ensuring the event runs smoothly (and having fun in the process).
+\end{abstract}
+
+\eject
+
+\tableofcontents
+%----------------------------------------------------------------------------------------
+%	ESSAY BODY
+%----------------------------------------------------------------------------------------
+
+\eject
+
+\subfile{sections/01}
+
+%------------------------------------------------
+
+%----------------------------------------------------------------------------------------
+%	BIBLIOGRAPHY
+%----------------------------------------------------------------------------------------
+
+%\bibliographystyle{unsrt}
+
+%\eject 
+
+%\bibliography{references}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
