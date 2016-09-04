@@ -1,2 +1,3 @@
-# siggraph-2016
-An account of one Student Volunteer attending SIGGRAPH 2016.
+# SIGGRAPH 2016
+
+My writeup of my experience attending SIGGRPAH 2016 as a student volunteer.
